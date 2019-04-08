@@ -1,0 +1,11 @@
+#####################################################################
+# Python program to convert temperature from Celsius to Fahrenheit  #
+# This is a very simple function example.                           #
+#####################################################################
+
+def F(c):
+    print ("The temperature in Celsius is %s C" %c)
+    f = (1.8 * c) + 32
+    return "Celsius to Fahrenheit is = %s F" %f
+
+F(23.5)
